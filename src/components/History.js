@@ -15,6 +15,7 @@ const History = ({list = [], restoreExpression}) =>
   </ol>
 </fieldset>
 
+
 const mapStateToProps = (state) => ({
   list: state.history
 });
